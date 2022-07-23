@@ -1,0 +1,14 @@
+name: LuckyBlock
+main: lucky\Main
+api: 3.0.0
+version: ALPHA
+commands:
+  mystone:
+    permission: mys.cmd
+  buylb:
+    permission: blb.cmd
+permissions:
+  mys.cmd:
+    default: true
+  blb.cmd:
+    default: true
